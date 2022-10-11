@@ -1,0 +1,138 @@
+libspecio-perl (0.47-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.47.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.5.1.
+  * Bump debhelper-compat to 13.
+  * debian/rules: remove override.
+    The files we removed are not shipped anymore.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 31 Jan 2021 21:02:58 +0100
+
+libspecio-perl (0.46-1) unstable; urgency=medium
+
+  * Team upload.
+  * debian/copyright: replace tabs with spaces / remove trailing
+    whitespace.
+  * Import upstream version 0.46.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.5.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 16 Mar 2020 23:48:01 +0100
+
+libspecio-perl (0.45-1) unstable; urgency=medium
+
+  * New upstream version 0.45
+  * d/control:
+    - Declare compliance with Debian Policy 4.4.1
+    - Add Rules-Requires-Root field
+    - Annotate test-only build dependencies with <!nocheck>
+    - Uploaders: Use my Debian email address
+    - Refresh (build) dependencies
+  * d/copyright:
+    - Refresh Debian Files stanza
+  * d/docs:
+    - Add upstream TODO to installed documentation
+  * d/u/metadata:
+    - Remove deprecated Contact, Name fields
+  * d/watch:
+    - Migrate to version 4 watch file format
+
+ -- Nick Morrott <nickm@debian.org>  Wed, 11 Dec 2019 02:21:44 +0000
+
+libspecio-perl (0.44-1) unstable; urgency=medium
+
+  * New upstream version 0.44
+  * Declare compliance with Debian Policy 4.4.0
+  * Bump debhelper compatibility version to 12.
+  * Refresh build and runtime dependencies
+  * Refresh upstream and Debian years of copyright
+  * Refresh upstream metadata
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Fri, 16 Aug 2019 05:18:09 +0100
+
+libspecio-perl (0.43-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 0.43.
+  * Install new upstream Code of Conduct document.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.2.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 25 Nov 2018 17:44:02 +0100
+
+libspecio-perl (0.42-1) unstable; urgency=medium
+
+  [ Damyan Ivanov ]
+  * declare conformance with Policy 4.1.2 (no changes needed)
+
+  [ Nick Morrott ]
+  * New upstream version 0.42
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Thu, 21 Dec 2017 21:21:49 +0000
+
+libspecio-perl (0.40-2) unstable; urgency=medium
+
+  * Team upload.
+  * Relax to suggest (not depend on) libtest-fatal-perl
+    libtry-tiny-perl: Needed only for rarely used Test::Specio module.
+  * Modernize Vcs-* fields: Consistently use git (not cgit) in path.
+  * Declare compliance with Debian Policy 4.1.1.
+  * Build-depend on libmouse-perl libnamespace-autoclean-perl: Improves
+    testsuite coverage.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 02 Oct 2017 16:16:36 +0200
+
+libspecio-perl (0.40-1) unstable; urgency=medium
+
+  [ Nick Morrott ]
+  * New upstream version 0.40
+  * Declare compliance with Debian Policy 4.0.1 (no changes)
+  * Bump debhelper compatibility level to 10
+  * Update (build-)dependencies
+
+  [ gregor herrmann ]
+  * Add Ref::Util and Sub::Util to Recommends and Build-Depends-Indep.
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Mon, 14 Aug 2017 14:00:24 +0100
+
+libspecio-perl (0.33-1) unstable; urgency=medium
+
+  * Import upstream version 0.33.
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Wed, 25 Jan 2017 23:42:37 +0000
+
+libspecio-perl (0.32-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.32.
+  * Update years of upstream copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 13 Jan 2017 23:34:31 +0100
+
+libspecio-perl (0.31-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.31.
+  * Update debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 15 Nov 2016 20:40:11 +0100
+
+libspecio-perl (0.30-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.30.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 22 Oct 2016 23:34:43 +0200
+
+libspecio-perl (0.29-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #838614)
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Tue, 11 Oct 2016 02:52:09 +0100

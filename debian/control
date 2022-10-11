@@ -1,0 +1,56 @@
+Source: libspecio-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Nick Morrott <nickm@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libdevel-stacktrace-perl <!nocheck>,
+                     libeval-closure-perl <!nocheck>,
+                     libmodule-runtime-perl <!nocheck>,
+                     libmoo-perl <!nocheck>,
+                     libmoose-perl <!nocheck>,
+                     libmouse-perl <!nocheck>,
+                     libmro-compat-perl <!nocheck>,
+                     libnamespace-autoclean-perl <!nocheck>,
+                     libref-util-perl <!nocheck>,
+                     librole-tiny-perl <!nocheck>,
+                     libsub-quote-perl <!nocheck>,
+                     libtest-fatal-perl <!nocheck>,
+                     libtest-needs-perl <!nocheck>,
+                     libtry-tiny-perl <!nocheck>,
+                     libxstring-perl <!nocheck>,
+                     perl
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libspecio-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libspecio-perl.git
+Homepage: https://metacpan.org/release/Specio
+Rules-Requires-Root: no
+
+Package: libspecio-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libdevel-stacktrace-perl,
+         libeval-closure-perl,
+         libmodule-runtime-perl,
+         libmro-compat-perl,
+         librole-tiny-perl,
+         libsub-quote-perl,
+         libxstring-perl
+Recommends: libref-util-perl
+Suggests: libtest-fatal-perl,
+          libtry-tiny-perl
+Description: Perl module providing type constraints and coercions
+ Specio provides classes for representing type constraints and coercion,
+ along with the syntactic sugar for declaring them.
+ .
+ This distribution ships with a set of builtin types representing the types
+ provided by the Perl interpreter itself.
+ .
+ Note that this is not a proper type system for Perl. Nothing in this
+ distribution will magically make the Perl interpreter start checking a value's
+ type on assignment to a variable.
+ .
+ Module Test::Specio requires the packages libtest-fatal-perl
+ libtry-tiny-perl.
